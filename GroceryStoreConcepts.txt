@@ -1,0 +1,64 @@
+Departments
+	--Liqour
+	--Meat
+	--Produce
+	
+Interface
+	--Product
+		--int 		ID/SKU
+		--String	item
+		--String	department name
+		--int		price
+		--int		count
+		
+DB Tables
+	--inventory
+		--id/sku
+		--item
+		--department id
+		--price
+	
+	--department	
+		--name
+		--id
+
+Based on user login, redirects to home screen.
+Home screen has current inventory for that users department.
+Admin sees entire inventory.
+
+		
+
+============================
+Grocery Store Inventory System
+
+
+Abstract Class Item?
+
+ID (SKU)	int
+Product		String
+Location	String
+Department	String
+Price		double
+inStock		boolean
+
+
+Public Class Toys implements Item
+
+
+View:
+	Logic/Class to increment/decrement
+	increment/decrement  (order/reorder)
+	Show inventory in DB by department
+	
+	
+		--Department drop down
+		--Promo codes?
+		--Order Total
+		
+		
+Account class?  Add/subtract based on sales and stocking?
+
+
+Could be like soda machine from c# class
+
+Employees?
