@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login</title>
+<title>Login</title>
+<script type="text/javascript">
+<!--
+	function Redirect() {
+
+		var username = document.forms["startPage"]["userName"].value;
+		
+		if (username == "admin") {
+			window.location = "admin.jsp";
+		}
+		
+	}
+//-->
+</script>
+<style>
+/* CSS Coding */
+body {
+	background:
+		url(https://boygeniusreport.files.wordpress.com/2015/06/grocery-store.jpg)
+		no-repeat center center fixed;
+	background-size: cover;
+}
+
+h1 {
+	color: black;
+	text-shadow: 2px 2px white;
+	font-size: 250%;
+	text-align: center;
+}
+
+form {
+	color: black;
+	text-align: right;
+	font-size: 150%;
+	text-shadow: 2px 2px white;
+	margin-left: auto;
+	margin-right: auto;
+	width: 12em
+}
+</style>
+</head>
+<body>
+	<h1>
+		<strong>Grocery Store Inventory</strong>
+	</h1>
+	<form name="startPage">
+		Enter your user name: <input type="text" name="userName" size="20"><br>
+		Enter your password: <input type="password" name="password" size="20"><br>
+		<input type="button" value="Login" onClick="Redirect();" />
+	</form>
+</body>
+</html>
+
+
+
